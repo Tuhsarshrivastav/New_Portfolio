@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function App() {
   return (
-    <div className="bg-[#162433] text-[#d1d6dc]">
+    <div>
       <Home />
     </div>
   );

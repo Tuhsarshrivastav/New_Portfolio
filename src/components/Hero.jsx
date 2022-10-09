@@ -7,7 +7,7 @@ const Hero = () => {
     window.open("mailto:tusharshrivastav96@gmail.com");
   };
   return (
-    <section className="text-[#d1d6dc] body-font">
+    <section className="text-gray-900 body-font">
       <div className="container mx-auto flex px-5 py-8 md:py-20 md:flex-row flex-col items-center">
         <motion.div
           initial={{ x: -500, opacity: 0, scale: 0.5 }}
@@ -26,7 +26,7 @@ const Hero = () => {
               className="bg-gradient-to-r  from-indigo-500 via-purple-500 to-pink-500  mr-1
            bg-clip-text text-transparent "
             >
-              Hey i'm Tushar Shrivastava
+              Hey i'm Tushar Shrivastav
             </div>
             <span
               className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  mr-1

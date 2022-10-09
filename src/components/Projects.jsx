@@ -15,18 +15,18 @@ const Projects = () => {
   };
   return (
     <div>
-      <section className="text-[#d1d6dc] mb-2   body-font md:mt-[-80px]   ">
+      <section className="text-gray-900 mb-2   body-font md:mt-[-80px]   ">
         <div className="container px-5 py-8 mx-auto">
           <motion.nav
             initial={{ x: -500, opacity: 0, scale: 0.5 }}
             animate={{ x: 0, opacity: 1, scale: 1 }}
             transition={{ duration: 3 }}
-            className="md:mr-auto mb-4 md:mb-2 lg:mb-2   md:py-1 text-[#d1d6dc] 	flex flex-wrap items-center text-lg justify-center md:justify-start cursor-pointer  space-x-3 font-medium "
+            className="md:mr-auto mb-4 md:mb-2 lg:mb-2   md:py-1 text-gray-900 	flex flex-wrap items-center text-lg justify-center md:justify-start cursor-pointer  space-x-3 font-medium "
           >
             <h2
               className={
                 active === "All" &&
-                "title-font  font-medium text-[#d1d6dc]  cursor-pointer border-b border-[#d1d6dc] "
+                "title-font  font-medium text-gray-900  cursor-pointer border-b border-gray-900 "
               }
               onClick={() => {
                 setProjects(data_projects);
@@ -38,7 +38,7 @@ const Projects = () => {
             <h2
               className={
                 active === "mern-stack" &&
-                "title-font  font-medium text-[#d1d6dc]  cursor-pointer border-b border-[#d1d6dc]"
+                "title-font  font-medium text-gray-900  cursor-pointer border-b border-gray-900"
               }
               onClick={() => handleFilterCategory("mern-stack")}
             >
@@ -47,7 +47,7 @@ const Projects = () => {
             <h2
               className={
                 active === "react-native" &&
-                "title-font  font-medium text-[#d1d6dc]   cursor-pointer border-b border-[#d1d6dc] "
+                "title-font  font-medium text-gray-900   cursor-pointer border-b border-gray-900 "
               }
               onClick={() => handleFilterCategory("react-native")}
             >
@@ -56,7 +56,7 @@ const Projects = () => {
             <h2
               className={
                 active === "node.js" &&
-                "title-font text-lg font-medium text-[#d1d6dc] cursor-pointer border-b border-[#d1d6dc] "
+                "title-font text-lg font-medium text-gray-900 cursor-pointer border-b border-gray-900 "
               }
               onClick={() => handleFilterCategory("node.js")}
             >
@@ -65,7 +65,7 @@ const Projects = () => {
             <h2
               className={
                 active === "react.js" &&
-                "title-font  font-medium text-[#d1d6dc]  cursor-pointer border-b border-[#d1d6dc] "
+                "title-font  font-medium text-gray-900  cursor-pointer border-b border-gray-900 "
               }
               onClick={() => handleFilterCategory("react.js")}
             >
@@ -74,7 +74,7 @@ const Projects = () => {
             <h2
               className={
                 active === "vue.js" &&
-                "title-font  font-medium text-[#d1d6dc]  cursor-pointer  border-b border-[#d1d6dc]"
+                "title-font  font-medium text-gray-900  cursor-pointer  border-b border-gray-900"
               }
               onClick={() => handleFilterCategory("vue.js")}
             >
@@ -83,7 +83,7 @@ const Projects = () => {
             <h2
               className={
                 active === "angular" &&
-                "title-font  font-medium text-[#d1d6dc]  cursor-pointer border-b border-[#d1d6dc]"
+                "title-font  font-medium text-gray-900  cursor-pointer border-b border-gray-900"
               }
               onClick={() => handleFilterCategory("angular")}
             >
@@ -92,7 +92,7 @@ const Projects = () => {
             <h2
               className={
                 active === "next.js" &&
-                "title-font  font-medium text-[#d1d6dc]  cursor-pointer border-b border-[#d1d6dc]"
+                "title-font  font-medium text-gray-900  cursor-pointer border-b border-gray-900"
               }
               onClick={() => handleFilterCategory("nextjs")}
             >
@@ -113,7 +113,7 @@ const Projects = () => {
                   className="p-10 md:p-4 md:py-8 pt-4  min-w-[425px] md:w-1/3 lg:w-1/3 cursor-pointer hover:scale-110
                   transform transition duration-300 ease-in-out mt-4  "
                 >
-                  <div className="h-full shadow-md  rounded-sm overflow-hidden p-4 bg-[#d1d6dc] ">
+                  <div className="h-full shadow-md  rounded-sm overflow-hidden p-4 bg-gray-100 ">
                     <Carousel
                       infiniteLoop={true}
                       autoPlay={true}

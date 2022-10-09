@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 const Header = () => {
   return (
-    <header className="text-[#d1d6dc] h-24   body-font  ">
+    <header className="text-[#d1d6dc] h-24    body-font  ">
       <div className="container mx-auto flex  p-2 flex-row md:flex-row items-center">
         <motion.div
           initial={{ x: -500, opacity: 0, scale: 0.5 }}
