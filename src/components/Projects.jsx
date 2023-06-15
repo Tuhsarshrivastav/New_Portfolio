@@ -104,7 +104,7 @@ const Projects = () => {
             animate={{ x: 0, opacity: 1, scale: 1 }}
             transition={{ duration: 3 }}
             whileInView={{ x: 0 }}
-            className="flex justify-center md:justify-start -m-4 overscroll-x-none  overflow-x-scroll transform transition-all ease-linear "
+            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-1  -m-4 transform transition-all ease-linear "
           >
             {projects.map(
               ({ name, image, deployed_url, image2, git_url }, index) => (
